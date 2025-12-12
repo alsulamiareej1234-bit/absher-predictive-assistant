@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Predictive Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>المساعد التنبؤي داخل أبشر</h1>
+        <p>خدمة استباقية تتابع مستنداتك وتنبهك قبل انتهاء الصلاحية</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>تنبيهات قريبة</h2>
+            <ul id="alertsList"></ul>
+        </section>
+
+        <section class="card">
+            <h2>إعدادات الخدمة</h2>
+
+            <div class="toggle-row">
+                <label>تنبيه انتهاء الهوية</label>
+                <label class="switch">
+                    <input type="checkbox" id="idAlert">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-row">
+                <label>تنبيه انتهاء الجواز</label>
+                <label class="switch">
+                    <input type="checkbox" id="passportAlert">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-row">
+                <label>تنبيه انتهاء استمارة المركبة</label>
+                <label class="switch">
+                    <input type="checkbox" id="carAlert">
+                    <span class="slider"></span>
+                </label>
+            </div>
